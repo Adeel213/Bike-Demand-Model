@@ -21,7 +21,6 @@ You enter the season, weather, temperature, humidity, windspeed, hour, month, an
    - Extracted hour, month, weekday from datetime
    - Encoded hour as sine/cosine (so 11 PM and 12 AM are treated as close)
    - Merged rare weather categories
-   - Removed `year` so the model isn't stuck to 2011–2012 and works for any year
 3. **Preprocessing** — scaling and one-hot encoding wrapped in a scikit-learn pipeline
 4. **Modeling** — compared Linear, Ridge, Lasso, Polynomial, SVR, Decision Tree, Random Forest, and XGBoost
 5. **Tuning** — used GridSearchCV to tune the best models
